@@ -1,6 +1,6 @@
 # Definitions and Example
 
-* less/more
+* less/more\
   **more** is a command that allows the viewing of text files in the command prompt and displays one screen at a time for big files.
   The **less** command is similar to the **more** command b
 * cat

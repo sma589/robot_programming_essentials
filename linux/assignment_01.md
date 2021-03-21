@@ -8,36 +8,36 @@
  To dictate the number of lines to reveal using a **less** command ``` # less +5 /var/log/auth.log ```
 
 
-### 2. cat\
+### 2. cat
   The **cat** command allows the creation of single or multiple files, view contain of file, concatenate files and redirect output in terminal or file. **cat** reads files sequentially, writing them to standard output. It is derived from con**cat**enate.
  #### Examples
   To display content ``` # cat /etc/passwd ```\
   To view contents of multiple files ``` # cat file1 file2 ```\
   To create a file ``` # cat >file3 ```\
   
-### 3. head/tail \
+### 3. head/tail 
  #### Examples
 
-### 4. touch \
+### 4. touch 
  #### Examples
  
-### 5. clear \
+### 5. clear 
  #### Examples
 
-### 6.  df\
+### 6.  df
  #### Examples
 
-### 7. diff\
+### 7. diff
  #### Examples
 
-### 8. locate/updatedb\
+### 8. locate/updatedb
  #### Examples
 
-### 9. export\
+### 9. export
  #### Examples
 
-### 10. source\
- #### Examples
+### 10. source
+ #### Example
  **source** command examples
  
  ```
@@ -47,11 +47,11 @@ source /path/to/functions.sh arg1 arg2
 source functions.sh WWWROOT=/apache.jail PHPROOT=/fastcgi.php_jail
  ```
 
-### 11. wget\
+### 11. wget
 The **wget** command allows downloading files from the Internet. It supports downloading multiple files, downloading in the background, resuming downloads, limiting the bandwidth used for downloads and viewing headers.
  #### Examples
 
-### 12. kill/killallv\
+### 12. kill/killallv
 The **kill** and **killall** commands are used to kill the specified processes. The difference between the two commands is that **killall** takes the process name instead of process ID or PID.
 
 

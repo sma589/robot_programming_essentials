@@ -16,7 +16,7 @@
   To create a file ``` # cat >file3 ```
   
 ### 3. [head/tail](https://www.baeldung.com/linux/head-tail-commands#:~:text=Introduction%20to%20the%20head%20and%20the%20tail%20Commands&text=They%20are%2C%20by%20default%2C%20installed,the%20result%20to%20standard%20output.)
-They are, by default, installed in all Linux distributions. As their names imply, the head command will output the first part of the file, while the tail command will print the last part of the file. Both commands write the result to standard output.
+They are, by default, installed in all Linux distributions. As their names imply, the **head** command will output the first part of the file, while the **tail** command will print the last part of the file. Both commands write the result to standard output.
 ```
 head [OPTIONS] FILES
 head numbers_en.txt //The head command will, by default, write the first ten lines of the input file to the standard output
@@ -26,6 +26,10 @@ tail [OPTIONS] FILES
  #### Examples
 
 ### 4. touch 
+The **touch** is used to create a file without any content. The file created using touch command is empty. This command can be used when the user doesn’t have data to store at the time of file creation.
+```
+touch file_name
+```
  #### Examples
  
 ### 5. clear 

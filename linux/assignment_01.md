@@ -38,6 +38,14 @@
 
 * source\
  #### Examples
+ **source** command examples
+ 
+ ```
+source filename [arguments]
+source functions.sh
+source /path/to/functions.sh arg1 arg2
+source functions.sh WWWROOT=/apache.jail PHPROOT=/fastcgi.php_jail
+ ```
 
 * wget\
 The **wget** command allows downloading files from the Internet. It supports downloading multiple files, downloading in the background, resuming downloads, limiting the bandwidth used for downloads and viewing headers.

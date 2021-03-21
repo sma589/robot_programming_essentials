@@ -5,7 +5,7 @@
  ```
  # more /var/log/auth.log 
  ```
- \The **less** command is similar to the **more** command b \
+ > The **less** command is similar to the **more** command b
 
 
 

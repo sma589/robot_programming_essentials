@@ -65,7 +65,7 @@ export [-f] [-n] [name[=value] ...] or export -p
 ```
 
 ### 10. source
-The source command can be used to load any functions file into the current shell script or a command prompt. It read and execute commands from given FILENAME and return.
+The **source** command can be used to load any functions file into the current shell script or a command prompt. It read and execute commands from given FILENAME and return.
 #### Examples 
  ```
 source filename [arguments]

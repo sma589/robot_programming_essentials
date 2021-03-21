@@ -17,6 +17,12 @@
   
 ### 3. [head/tail](https://www.baeldung.com/linux/head-tail-commands#:~:text=Introduction%20to%20the%20head%20and%20the%20tail%20Commands&text=They%20are%2C%20by%20default%2C%20installed,the%20result%20to%20standard%20output.)
 They are, by default, installed in all Linux distributions. As their names imply, the head command will output the first part of the file, while the tail command will print the last part of the file. Both commands write the result to standard output.
+```
+head [OPTIONS] FILES
+head numbers_en.txt //The head command will, by default, write the first ten lines of the input file to the standard output
+head -n 7 numbers_en.txt //With the -n option, we can let the head command output the first n lines instead of the default 10.
+tail [OPTIONS] FILES
+```
  #### Examples
 
 ### 4. touch 
@@ -55,7 +61,7 @@ The **wget** command allows downloading files from the Internet. It supports dow
  wget -O sara_assignment_01.md https://github.com/sma589/robot_programming_essentials/linux/assignment_01.md //saves the file in downloads as sara_assignment_01.md
  wget -P /udg/RPE sara_assignment_01.md https://github.com/sma589/robot_programming_essentials/linux/assignment_01.md //saves the file in specific folder
  ```
-### 12. kill/killallv
+### 12. kill/killall
 The **kill** and **killall** commands are used to kill the specified processes. The difference between the two commands is that **killall** takes the process name instead of process ID or PID.
 
 

@@ -93,3 +93,12 @@ The **kill** and **killall** commands are used to kill the specified processes. 
  killall -sKILL httpd //without interactive option
  killall -sKILL -i httpd //asks y/n before killing process
  ```
+ 
+ ##Sources
+ 1. Geeksforgeeks
+ 2. Wikipedia.com.com
+ 3. Linuxize.com
+ 4. Prior.com
+ 5. Tecmint.com
+ 6. Bash.cyberciti.biz
+

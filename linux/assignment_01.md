@@ -13,7 +13,7 @@
  #### Examples
   To display content ``` # cat /etc/passwd ```\
   To view contents of multiple files ``` # cat file1 file2 ```\
-  To create a file ``` # cat >file3 ```\
+  To create a file ``` # cat >file3 ```
   
 ### 3. head/tail 
  #### Examples
@@ -37,9 +37,8 @@
  #### Examples
 
 ### 10. source
- #### Example
- **source** command examples
- 
+The source command can be used to load any functions file into the current shell script or a command prompt. It read and execute commands from given FILENAME and return.
+ #### Example 
  ```
 source filename [arguments]
 source functions.sh

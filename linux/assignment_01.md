@@ -1,6 +1,6 @@
 # Definitions and Example
 
-* less/more\
+1. less/more\
   **more** is a command that allows the viewing of text files in the command prompt and displays one screen at a time for big files.\
   The **less** command is similar to the **more** but has more advanced features and allows you to navigate both forward and backward through the file. The command displays the text file on page at a time. 
  #### Examples
@@ -8,14 +8,14 @@
  To dictate the number of lines to reveal using a **less** command ``` # less +5 /var/log/auth.log ```
 
 
-* cat\
+2. cat\
   The **cat** command allows the creation of single or multiple files, view contain of file, concatenate files and redirect output in terminal or file. **cat** reads files sequentially, writing them to standard output. It is derived from con**cat**enate.
  #### Examples
   To display content ``` # cat /etc/passwd ```\
   To view contents of multiple files ``` # cat file1 file2 ```\
   To create a file ``` # cat >file3 ```\
   
-* head/tail \
+3. head/tail \
  #### Examples
 
 * touch \

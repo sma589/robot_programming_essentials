@@ -52,11 +52,13 @@ The **wget** command allows downloading files from the Internet. It supports dow
  #### Examples
 
 * kill/killallv\
-The **kill** and **killall** commands are used to kill the specified processes.\
+The **kill** and **killall** commands are used to kill the specified processes. The difference between the two commands is that **killall** takes the process name instead of process ID or PID.
 
 
  #### Examples
  ```
  kill [OPTIONS] [PID]
  kill -l //shows the list of processes 
+ killall -sKILL httpd //without interactive option
+ killall -sKILL -i httpd //asks y/n before killing process
  ```

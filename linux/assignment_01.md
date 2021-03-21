@@ -1,6 +1,6 @@
 # Definitions and Example
 
-#### 1. less/more\
+##### 1. less/more
   **more** is a command that allows the viewing of text files in the command prompt and displays one screen at a time for big files.\
   The **less** command is similar to the **more** but has more advanced features and allows you to navigate both forward and backward through the file. The command displays the text file on page at a time. 
  #### Examples

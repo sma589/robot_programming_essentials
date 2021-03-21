@@ -6,10 +6,7 @@
  ```
  # more /var/log/auth.log
  ```
-> To dictate the number of lines to reveal 
-```
-# less +5 /var/log/auth.log
-```
+> To dictate the number of lines to reveal using a **less** command ``` # less +5 /var/log/auth.log ```
 
 
 * cat

@@ -4,7 +4,9 @@
   **more** is a command that allows the viewing of text files in the command prompt and displays one screen at a time for big files.\
   The **less** command is similar to the **more** command b \
   
-  ''' # more /var/log/auth.log '''\
+  ''' 
+  # more /var/log/auth.log 
+  '''
 * cat
 * head/tail
 * touch

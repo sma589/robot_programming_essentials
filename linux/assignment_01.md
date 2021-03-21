@@ -38,7 +38,7 @@
 
 ### 10. source
 The source command can be used to load any functions file into the current shell script or a command prompt. It read and execute commands from given FILENAME and return.
- #### Example 
+ #### Examples 
  ```
 source filename [arguments]
 source functions.sh
@@ -49,7 +49,11 @@ source functions.sh WWWROOT=/apache.jail PHPROOT=/fastcgi.php_jail
 ### 11. wget
 The **wget** command allows downloading files from the Internet. It supports downloading multiple files, downloading in the background, resuming downloads, limiting the bandwidth used for downloads and viewing headers.
  #### Examples
-
+ ```
+ wget [options] [url]
+ wget -O sara_assignment_01.md https://github.com/sma589/robot_programming_essentials/linux/assignment_01.md //saves the file in downloads as sara_assignment_01.md
+ wget -P /udg/RPE sara_assignment_01.md https://github.com/sma589/robot_programming_essentials/linux/assignment_01.md //saves the file in specific folder
+ ```
 ### 12. kill/killallv
 The **kill** and **killall** commands are used to kill the specified processes. The difference between the two commands is that **killall** takes the process name instead of process ID or PID.
 

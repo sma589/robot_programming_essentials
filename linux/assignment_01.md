@@ -15,7 +15,8 @@
   To view contents of multiple files ``` # cat file1 file2 ```\
   To create a file ``` # cat >file3 ```
   
-### 3. head/tail 
+### 3. [head/tail] (https://www.baeldung.com/linux/head-tail-commands#:~:text=Introduction%20to%20the%20head%20and%20the%20tail%20Commands&text=They%20are%2C%20by%20default%2C%20installed,the%20result%20to%20standard%20output.)
+They are, by default, installed in all Linux distributions. As their names imply, the head command will output the first part of the file, while the tail command will print the last part of the file. Both commands write the result to standard output.
  #### Examples
 
 ### 4. touch 

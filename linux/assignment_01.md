@@ -11,15 +11,36 @@
 * cat\
   The **cat** command allows the creation of single or multiple files, view contain of file, concatenate files and redirect output in terminal or file. **cat** reads files sequentially, writing them to standard output. It is derived from con**cat**enate.
  #### Examples
-  To display content 
+  To display content ``` # cat /etc/passwd ```\
+  To view contents of multiple files ``` # cat file1 file2 ```\
+  To create a file ``` # cat >file3 ```\
   
-* head/tail
-* touch
-* clear
-* df
-* diff
-* locate/updatedb
-* export
-* source
-* wget
-* kill/killall
+* head/tail \
+ #### Examples
+
+* touch \
+ #### Examples
+ 
+* clear \
+ #### Examples
+
+*  df\
+ #### Examples
+
+* diff\
+ #### Examples
+
+* locate/updatedb\
+ #### Examples
+
+* export\
+ #### Examples
+
+* source\
+ #### Examples
+
+* wget\
+ #### Examples
+
+* kill/killallv\
+ #### Examples

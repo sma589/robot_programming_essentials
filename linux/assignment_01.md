@@ -10,8 +10,8 @@
 
 * cat\
   The **cat** command allows the creation of single or multiple files, view contain of file, concatenate files and redirect output in terminal or file. **cat** reads files sequentially, writing them to standard output. It is derived from con**cat**enate.
- ### Examples
-  
+ #### Examples
+  To display content 
   
 * head/tail
 * touch

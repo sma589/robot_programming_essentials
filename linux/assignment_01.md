@@ -40,6 +40,7 @@
  #### Examples
 
 * wget\
+The **wget** command allows downloading files from the Internet. It supports downloading multiple files, downloading in the background, resuming downloads, limiting the bandwidth used for downloads and viewing headers.
  #### Examples
 
 * kill/killallv\

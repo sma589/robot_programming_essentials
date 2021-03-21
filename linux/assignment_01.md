@@ -27,29 +27,42 @@ tail [OPTIONS] FILES
 
 ### 4. touch 
 The **touch** is used to create a file without any content. The file created using touch command is empty. This command can be used when the user doesn’t have data to store at the time of file creation.
+
+#### Example
 ```
 touch file_name
-```
- #### Examples
- 
+``` 
 ### 5. clear 
- #### Examples
-
+**clear** is a standard Unix computer operating system command that is used to clear the terminal screen
+ #### Example
+```
+clear
+```
 ### 6.  df
- #### Examples
-
+The **df** command (short for disk free), is used to display information related to file systems about total space and available space.
+#### Examples
+```
+df [OPTION]... [FILE]...
+```
 ### 7. diff
- #### Examples
-
+**diff** stands for difference. This command is used to display the differences in the files by comparing the files line by line. 
+#### Examples
+```
+diff [options] File1 File2 
+```
 ### 8. locate/updatedb
  #### Examples
 
 ### 9. export
- #### Examples
+**export**  marks an environment variables to be exported to child-processes.
+#### Examples
+```
+export [-f] [-n] [name[=value] ...] or export -p
+```
 
 ### 10. source
 The source command can be used to load any functions file into the current shell script or a command prompt. It read and execute commands from given FILENAME and return.
- #### Examples 
+#### Examples 
  ```
 source filename [arguments]
 source functions.sh
